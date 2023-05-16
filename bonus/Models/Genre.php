@@ -1,15 +1,18 @@
 <?php
 class Genre
 {
-private $name;
+  // Attributo
+  public $name;
 
-public function __construct($name)
-{
-$this->name = $name;
-}
+  // Costruttore
+  public function __construct($name)
+  {
+    $this->name = $name;
+  }
 
-public function getName()
-{
-return $this->name;
-}
+  // Metodo
+  public function getName()
+  {
+    return $this->name;
+  }
 }

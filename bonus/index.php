@@ -19,10 +19,10 @@ require __DIR__ . '../../bonus/data/db.php'
   <?php
 
   // Itera sui film nell'array e visualizza le informazioni
-  foreach ($movies as $movie) {
-    echo "<p>" . $movie->getInfo() . "</p>";
-  }
-  
+  foreach ($movies as $movie) : ?>
+    <p><?= $movie->getInfo(); ?></p>
+  <?php
+  endforeach
   ?>
 
 </body>

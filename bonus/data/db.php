@@ -8,7 +8,7 @@ $genre2 = new Genre("Commedia");
 $genre3 = new Genre("Drammatico");
 
 // Crea un array di oggetti Movie
-$movie =
+$movies =
   [
     new Movie("Ong-Bak - Nato per combattere", "lorem", 2003, $genre1),
     new Movie("Ong-Bak - Nato per combattere", "lorem", 2003, $genre1),
